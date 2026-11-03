@@ -79,75 +79,88 @@ nav a:hover {
     margin: 0;
 }
 
-/*About me*/
-.container{
+
+/* About me */
+.container {
     max-width: 950px;
     margin: 30px auto;
     padding: 0 20px;
-
 }
 
-.intro-text{
+.intro-text {
     margin-bottom: 12px;
     font-size: 16px;
     color: #e6e2f0;
 }
 
-/* Grid layout voor de kolomen*/
-.content-grid{
+/* Grid layout voor de kolommen */
+.content-grid {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     gap: 40px;
     margin-top: 35px;
+    align-items: start;
 }
 
-.colum h3{
+/* Technische skills */
+.column h3 {
     font-size: 18px;
     margin-bottom: 12px;
     color: #ffffff;
-
 }
 
-.colum p{
-    font-size: 15px;
-    margin-bottom: 8px;
-    color: #e6e2f0;
-
+/* Languages en Tools */
+.column p {
+    display: inline-block;
+    width: 48%;
+    margin: 0;
+    vertical-align: top;
+    font-weight: 700;
 }
 
-.languages-list{
+/* Talenkennis */
+.languages-list {
     list-style-type: disc;
     padding-left: 20px;
     color: #e6e2f0;
-
 }
-.languages-list li{
+
+.languages-list li {
     margin-bottom: 6px;
     font-size: 15px;
 }
 
-/*Sterke punten (Bafges)*/
-.center-title{
-    text-align: center;
-    margin-bottom: 20px !important;
-
+/* Rechterkolom */
+.colum {
+    padding-top: 0;
 }
-/*twee rij van dezelfe hoogte en lengte*/
-.badges-container{
+
+/* Mijn sterke punten */
+.center-title {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Vier buttons in twee rijen */
+.badges-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px
+    gap: 15px;
+    transform: translateX(0);
+    margin-top: 0;
 }
 
-
-/* hier ik heb de alle tekst een aparte button gemaakt*/
-.badge{
+/* Buttons */
+.badge {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    width: 319px;
+    width: 100%;
     min-height: 38px;
+    box-sizing: border-box;
 
     background-color: transparent;
     border: 1.5px solid #ffd700;
@@ -158,7 +171,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-.badges:hover{
-    background-color:#ffd700;
-    color: black
+.badge:hover {
+    background-color: #ffd700;
+    color: black;
 }
