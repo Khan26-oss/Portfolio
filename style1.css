@@ -240,10 +240,86 @@ nav a:hover {
     background-color: white;
 }
 
-/*projecten*/
-.kaart img{
+/*project img*/
+.kaart img {
     width: 100%;
     height: auto;
     border-radius: 10px;
     margin-top: 15px;
 }
+
+
+/* Contact Sectie */
+.contact-sectie {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* De paginatitel "Contact" linksboven */
+.pagina-titel {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+/* De grote gecentreerde tekst "Neem contact op :" */
+.contact-intro-titel {
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Grid: zet de 3 kaarten netjes naast elkaar */
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Stijl van de kaarten */
+.contact-kaart {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+}
+
+.contact-kaart:hover {
+    transform: translateY(-5px);
+}
+
+/* Icoon vakje */
+.icon-box {
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/* Titel op de kaart (WHATSAPP, EMAIL, PHONE) */
+.contact-kaart h3 {
+    color: #8a8a9e;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 0 0 6px 0;
+}
+
+/* De tekst/nummers in de kaart */
+.contact-kaart p {
+    color: #1c1c2e;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+}
+
+
