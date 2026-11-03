@@ -85,40 +85,50 @@ nav a:hover {
     max-width: 950px;
     margin: 30px auto;
     padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h1 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .intro-text {
-    margin-bottom: 12px;
-    font-size: 16px;
+    margin-bottom: 25px;
+    font-size: 15px;
     color: #e6e2f0;
+    line-height: 1.5;
 }
 
-/* Grid layout voor de kolommen */
+/* Grid layout voor de twee hoofdkolommen */
 .content-grid {
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
-    margin-top: 35px;
     align-items: start;
 }
 
-/* Technische skills */
-.column h3 {
+/* Koppen */
+.column h3, .colum h3 {
     font-size: 18px;
     margin-bottom: 12px;
     color: #ffffff;
 }
 
-/* Languages en Tools */
-.column p {
-    display: inline-block;
-    width: 48%;
-    margin: 0;
-    vertical-align: top;
+/* Stijl voor Languages en Tools regels */
+.column p, .tools-regel {
     font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 15px;
 }
 
-/* Talenkennis */
+.sub-title {
+    margin-top: 30px;
+}
+
+/* Talenkennis lijst */
 .languages-list {
     list-style-type: disc;
     padding-left: 20px;
@@ -130,30 +140,20 @@ nav a:hover {
     font-size: 15px;
 }
 
-/* Rechterkolom */
-.colum {
-    padding-top: 0;
-}
-
-/* Mijn sterke punten */
+/* Rechterkolom: Titel sterke punten */
 .center-title {
-    text-align: center;
-    font-size: 18px;
-    color: #ffffff;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
 }
 
-/* Vier buttons in twee rijen */
+/* Knoppen raster */
 .badges-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    transform: translateX(0);
-    margin-top: 0;
 }
 
-/* Buttons */
+/* Buttons stijl */
 .badge {
     display: flex;
     justify-content: center;
@@ -161,14 +161,14 @@ nav a:hover {
     width: 100%;
     min-height: 38px;
     box-sizing: border-box;
-
     background-color: transparent;
     border: 1.5px solid #ffd700;
     border-radius: 99px;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     font-family: inherit;
     cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .badge:hover {
@@ -184,8 +184,6 @@ nav a:hover {
     padding: 0 20px;
 
 }
-
-
 
 /*intro*/
 .intro{
