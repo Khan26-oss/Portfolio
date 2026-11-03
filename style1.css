@@ -96,8 +96,9 @@ nav a:hover {
 
 .intro-text {
     margin-bottom: 25px;
-    font-size: 15px;
+    font-size: 18px;
     color: #e6e2f0;
+    font-weight: bold;
     line-height: 1.5;
 }
 
@@ -121,7 +122,7 @@ nav a:hover {
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .sub-title {
@@ -133,11 +134,15 @@ nav a:hover {
     list-style-type: disc;
     padding-left: 20px;
     color: #e6e2f0;
+   
 }
 
 .languages-list li {
     margin-bottom: 6px;
     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Rechterkolom: Titel sterke punten */
@@ -176,11 +181,36 @@ nav a:hover {
     color: black;
 }
 
+/*knoppen onderaan*/
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #e5f000;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #d4df00;
+    transform: translateY(-2px);
+}
+
 /*section projecten*/
 
 .Projecten{
     max-width: 950px;
-    margin: 30px auto;
+    margin: 120px auto;
     padding: 0 20px;
 
 }
@@ -260,6 +290,7 @@ nav a:hover {
     color: #ffffff;
     font-size: 28px;
     margin-bottom: 40px;
+    margin-top: 100px;
 }
 
 /* De grote gecentreerde tekst "Neem contact op :" */
