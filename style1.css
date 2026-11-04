@@ -5,6 +5,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navigatiebalk */
 header {
     display: flex;
