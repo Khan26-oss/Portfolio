@@ -26,6 +26,7 @@ header {
 .logo img {
     height: 70px; /* Zorgt dat je gouden logo exact de juiste grootte heeft */
     display: block;
+    padding-left: 45px;
    
 }
 
