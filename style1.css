@@ -50,9 +50,14 @@ nav a:hover {
 /* Hero sectie */
 .hero {
     display: flex;
-    padding: 80px 90px;
-    gap: 60px; /* Ruimte tussen de foto en tekst */
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    box-sizing: border-box;
 }
 
 .hero img {
@@ -359,4 +364,6 @@ nav a:hover {
     margin: 0;
 }
 
-
+@media(max-width: 768px){
+    
+}
