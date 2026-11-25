@@ -365,5 +365,31 @@ nav a:hover {
 }
 
 @media(max-width: 768px){
-    
+    /*geldt allen voor smalle schermen*/
+    header{
+        height: auto;
+        padding: 10px 15px;
+        gap: 12px;
+        flex-wrap: wrap;
+        top: 0;
+        position: sticky;
+        z-index: 999;
+    }
+
+    .logo img{
+        height: 45px;
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    nav{
+        gap: 12px;
+        flex-wrap: wrap;
+        
+    }
+
+    nav a{
+        font-size: 13px;
+    }
+
 }
