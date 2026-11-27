@@ -427,6 +427,30 @@ nav a:hover {
     .hero-content p{
         font-size: 20px;
     }
+
+    .content-grid{
+        grid-template-columns: 1fr;  /*één kolom in plaats van twee, alles komt onder elkaar*/
+        gap: 20px;
+    }
+       .badges-container{
+        grid-template-columns: 1fr;
+    }
     
+    .badge{
+        font-size: 14px;
+    }
+    .action-buttons{
+      gap: 10px;
+      margin-left: 18 px;
+
+    }
+
+    .btn{
+        flex: 1;                     
+        text-align: center;          
+        padding: 10px 8px;           
+        font-size: 13px;             
+        line-height: 1.3;            
+    }
 
 }
